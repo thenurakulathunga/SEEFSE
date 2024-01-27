@@ -2,6 +2,7 @@ import Navbar from "./component/navbar/navbar";
 import BottomNAV from "./component/navbar/bottomnav";
 import About from "./sections/about/about";
 import Cards from "./sections/cards/page";
+import Form from "./sections/form/form";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <BottomNAV />
       <About />
       <Cards />
+      <Form />
     </div>
   );
 }
