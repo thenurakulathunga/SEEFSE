@@ -5,8 +5,8 @@ import Children from "/src/app/asset/image/children.png";
 
 function Cards() {
   return (
-    <div className="flex max-w-[1040px] w-full py-[120px] flex-col items-center gap-[72px]">
-      <div className="grid grid-cols-2 max-w-[862px] items-center gap-[68px] ">
+    <div className="flex max-w-[1040px] w-full py-[54px] px-[30px] sm:px-0 sm:py-[120px] flex-col items-center gap-[72px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 max-w-[862px] items-center gap-[68px] ">
         <div className="order-1">
           <Image
             src={Family}
@@ -29,8 +29,8 @@ function Cards() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2 max-w-[862px] items-center gap-[68px]">
-        <div className="order-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 max-w-[862px] items-center gap-[68px]">
+        <div className="order-1 sm:order-2">
           <Image
             src={Children}
             width={397}
@@ -39,7 +39,7 @@ function Cards() {
             className="rounded-[16px]"
           />
         </div>
-        <div className="flex py-10 flex-col items-start gap-[38px] flex-[1_0_0%] order-1">
+        <div className="flex py-10 flex-col items-start gap-[38px] flex-[1_0_0%] order-2 sm:order-1">
           <h3 className="self-stretch text-primary font-plus text-[29px] font-[700] leading-[125%]">
             We hope to ensure future generations
           </h3>

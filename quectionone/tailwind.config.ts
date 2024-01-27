@@ -11,7 +11,7 @@ const config: Config = {
       'plus': ['Plus-Jakarta-Sans', 'sans-serif'],
     },
     screens: {
-      sm: "375px",
+      sm: "376px",
       // => @media (min-width: 375px) { ... }
       lg: "1440px",
       // => @media (min-width: 1440px) { ... }

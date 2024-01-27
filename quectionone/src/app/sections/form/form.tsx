@@ -7,14 +7,14 @@ function Form() {
     <div className="max-w-screen-lg my-[98px] h-[906px] gap-[10px] bg-[rgba(186,216,222,0.30)] w-full flex justify-center items-center">
       <form
         action=""
-        className="p-[54px] w-[600px] h-[690px] flex flex-col items-start gap-[24px] rounded-[16px] bg-white shadow-[0_4px_16px_0_rgba(0,0,0,0.06)]"
+        className="p-[24px] sm:p-[54px] w-[315px] sm:w-[600px] h-[706px] sm:h-[690px] flex flex-col items-start gap-[24px] rounded-[16px] bg-white shadow-[0_4px_16px_0_rgba(0,0,0,0.06)]"
       >
         <h4 className="text-primary text-center font-plus text-[21px] font-[500] leading-[150%]">
           General Enquiries
         </h4>
 
         <div className="flex flex-col items-start gap-4 self-stretch">
-          <div className="flex items-start gap-4 self-stretch">
+          <div className="flex sm:flex-row flex-col items-start gap-4 self-stretch">
             <div className="flex flex-col items-start gap-1">
               <label
                 htmlFor="f_name"
@@ -25,7 +25,7 @@ function Form() {
               <input
                 id="f_name"
                 type="text"
-                className="flex py-2 px-3 flex-col items-start h-10 self-stretch rounded-[4px] border strock-[#C4C4C4] bg-white w-[238px]"
+                className="flex py-2 px-3 flex-col items-start h-10 self-stretch rounded-[4px] border strock-[#C4C4C4] bg-white w-full sm:w-[238px]"
               />
             </div>
             <div className="flex flex-col items-start gap-1 ">
@@ -38,7 +38,7 @@ function Form() {
               <input
                 id="l_name"
                 type="text"
-                className="flex py-2 px-3 flex-col items-start h-10 self-stretch rounded-[4px] border strock-[#C4C4C4] bg-white w-[238px]"
+                className="flex py-2 px-3 flex-col items-start h-10 self-stretch rounded-[4px] border strock-[#C4C4C4] w-full sm:w-[238px]"
               />
             </div>
           </div>

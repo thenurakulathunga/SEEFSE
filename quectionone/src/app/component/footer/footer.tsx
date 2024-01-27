@@ -10,8 +10,8 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="max-w-screen-lg py-[64px] w-full h-[412px]  flex flex-coll items-center gap-7 justify-center">
-      <div className="flex w-[1040px] justify-between items-start">
+    <div className="max-w-screen-lg py-[48px] px-[30px] sm:px-0 sm:py-[64px] w-full h-[878px] sm:h-[412px]  flex flex-coll items-center gap-7 justify-center">
+      <div className="flex w-[1040px] justify-between items-start flex-col sm:flex-row gap-[43px] sm:gap-0">
         <div className="flex flex-col items-start gap-3">
           <div className="flex flex-col gap-[38px] self-stretch">
             <div className="flex flex-col gap-4">
@@ -60,8 +60,8 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-5 max-w-[775px] w-full gap-[39px]">
-          <div className="col-span-3 grid grid-cols-3 gap-[39px]">
+        <div className="grid sm:grid-cols-5 grid-cols-2 max-w-[775px] w-full gap-[39px]">
+          <div className="sm:col-span-3 grid sm:grid-cols-3 grid-cols-1 sm:gap-[39px] gap-[54px]">
             <div className="flex flex-col w-[120px] gap-4">
               <p className="text-secondary font-plus tetx-[13px] font-[700] leading-[150%]">
                 Plungie for
@@ -97,7 +97,7 @@ function Footer() {
                 Homeowners
               </a>
             </div>
-            <div className="flex flex-col w-[120px] gap-4">
+            <div className="sm:flex flex-col w-[120px] gap-4 hidden">
               <p className="text-secondary font-plus tetx-[13px] font-[700] leading-[150%]">
                 Our Pools
               </p>
@@ -161,9 +161,85 @@ function Footer() {
                 Interior coating
               </a>
             </div>
+            <div className="sm:hidden flex flex-col w-[120px] gap-4 ">
+              <p className="text-secondary font-plus tetx-[13px] font-[700] leading-[150%]">
+                Company
+              </p>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Contact us
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                About
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                History
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Careers
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Blog
+              </a>
+            </div>
           </div>
-          <div className="col-span-2 grid grid-cols-2 gap-[39px]">
-            <div className="flex flex-col w-[120px] gap-4">
+          <div className="sm:col-span-2 grid sm:grid-cols-2 grid-cols-1 sm:gap-[39px] gap-[54px]">
+		  <div className="flex flex-col w-[120px] gap-4 sm:hidden">
+              <p className="text-secondary font-plus tetx-[13px] font-[700] leading-[150%]">
+                Our Pools
+              </p>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Arena
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Studio
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Original
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Max
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Compare Pools
+              </a>
+              <a
+                href="#"
+                className="text-light-[#434244] font-plus text-[13px] font-[400] leading-[150%]"
+              >
+                Why Plungie?
+              </a>
+            </div>
+			<div className="flex flex-col w-[120px] gap-4">
               <p className="text-secondary font-plus tetx-[13px] font-[700] leading-[150%]">
                 More Info
               </p>
@@ -210,7 +286,7 @@ function Footer() {
                 Downloads
               </a>
             </div>
-            <div className="flex flex-col w-[120px] gap-4">
+            <div className="sm:flex flex-col w-[120px] gap-4 hidden">
               <p className="text-secondary font-plus tetx-[13px] font-[700] leading-[150%]">
                 Company
               </p>
