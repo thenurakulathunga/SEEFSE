@@ -10,10 +10,10 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="max-w-screen-lg py-[48px] px-[30px] sm:px-0 sm:py-[64px] w-full h-[878px] sm:h-[412px]  flex flex-coll items-center gap-7 justify-center">
+    <div className="max-w-screen-lg py-[48px] px-[30px] sm:px-0 sm:py-[64px] w-full h-[982px] sm:h-[412px]  flex flex-coll items-center gap-7 justify-center">
       <div className="flex w-[1040px] justify-between items-start flex-col sm:flex-row gap-[43px] sm:gap-0">
         <div className="flex flex-col items-start gap-3">
-          <div className="flex flex-col gap-[38px] self-stretch">
+          <div className="flex flex-col sm:gap-[38px] gap-[18px] self-stretch">
             <div className="flex flex-col gap-4">
               <Image
                 src={Logo}
