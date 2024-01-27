@@ -19,6 +19,8 @@ const config: Config = {
     extend: {
       colors: {
         "primary": "#11284B",
+        "secondary": "#00BAD2",
+        "accent": "#F2E1D1",
       },
     },
   },
