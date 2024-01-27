@@ -16,8 +16,8 @@ function Navbar() {
     <div className="max-w-[1040px] w-full">
       <nav className="flex sm:my-[26px] flex-col items-end gap-[1px] flex-[1_0_0%]">
         <div className="flex sm:h-[66px] sm:py-[1px] py-[18px] px-[30px] justify-between items-center self-stretch">
-          <a
-            href=""
+          <Link
+            href="/"
             className="flex w-40 sm:pt-[0.5px] sm:pb-[7.05px] justify-center items-center"
           >
             <Image
@@ -27,7 +27,7 @@ function Navbar() {
               // height={66}
               alt="Picture of the author"
             />
-          </a>
+          </Link>
           <button className="sm:hidden w-[37px] h-[37px] flex justify-center items-center" onClick={toggleMobilebutton}>
             <Image
               src={showNavlinks ? MenuCloseIcon : MenuIcon}
