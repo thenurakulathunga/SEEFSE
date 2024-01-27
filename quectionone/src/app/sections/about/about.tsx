@@ -7,8 +7,8 @@ import Work from "/src/app/asset/image/work.png";
 function About() {
   return (
     <div className="flex flex-col items-end gap-[10px] self-stretch w-[375px] sm:w-[1440px] mx-auto ">
-      <div className="flex w-full sm:max-w-[1240px] items-center gap-[112px] flex-col sm:flex-row">
-        <div className="flex sm:w-[464px] py-[68px] flex-col items-start gap-6 sm:gap-[10px] flex-shrink-0 px-[30px] py-[38px] sm:p-0">
+      <div className="flex w-full sm:max-w-[1240px] items-center sm:gap-[112px] flex-col sm:flex-row">
+        <div className="flex sm:w-[464px] sm:py-[68px] flex-col items-start gap-6 sm:gap-[10px] flex-shrink-0 px-[30px] py-[38px] sm:p-0">
           <span className="text-secondary font-plus text-[13px] font-[700] leading-[150%]">
             Our story
           </span>

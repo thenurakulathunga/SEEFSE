@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Form() {
   return (
-    <div className="max-w-screen-lg my-[98px] h-[906px] gap-[10px] bg-[rgba(186,216,222,0.30)] w-full flex justify-center items-center">
+    <div className="max-w-screen-lg sm:my-[98px] sm:mx-0 my-60 mx-30 h-[906px] gap-[10px] bg-[rgba(186,216,222,0.30)] w-full flex justify-center items-center">
       <form
         action=""
         className="p-[24px] sm:p-[54px] w-[315px] sm:w-[600px] h-[706px] sm:h-[690px] flex flex-col items-start gap-[24px] rounded-[16px] bg-white shadow-[0_4px_16px_0_rgba(0,0,0,0.06)]"

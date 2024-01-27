@@ -28,7 +28,7 @@ function Navbar() {
               alt="Picture of the author"
             />
           </a>
-          <button className="block sm:hidden w-[37px] h-[37px] flex justify-center items-center" onClick={toggleMobilebutton}>
+          <button className="sm:hidden w-[37px] h-[37px] flex justify-center items-center" onClick={toggleMobilebutton}>
             <Image
               src={showNavlinks ? MenuCloseIcon : MenuIcon}
               // width={160}
