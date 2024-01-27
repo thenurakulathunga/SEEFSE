@@ -1,6 +1,7 @@
 import Navbar from "./component/navbar/navbar";
 import BottomNAV from "./component/navbar/bottomnav";
 import About from "./sections/about/about";
+import Cards from "./sections/cards/page";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <BottomNAV />
       <About />
+      <Cards />
     </div>
   );
 }
