@@ -4,10 +4,10 @@ import Image from "next/image";
 
 function Form() {
   return (
-    <div className="max-w-screen-lg my-[98px] h-[906px] gap-[10px] bg-[rgba(186,216,222,0.30)] w-full relative">
+    <div className="max-w-screen-lg my-[98px] h-[906px] gap-[10px] bg-[rgba(186,216,222,0.30)] w-full flex justify-center items-center">
       <form
         action=""
-        className="p-[54px] w-[600px] flex flex-col items-start gap-[24px] absolute left-[420px] top-[103px] rounded-[16px] bg-white shadow-[0_4px_16px_0_rgba(0,0,0,0.06)]"
+        className="p-[54px] w-[600px] h-[690px] flex flex-col items-start gap-[24px] rounded-[16px] bg-white shadow-[0_4px_16px_0_rgba(0,0,0,0.06)]"
       >
         <h4 className="text-primary text-center font-plus text-[21px] font-[500] leading-[150%]">
           General Enquiries
@@ -102,26 +102,13 @@ function Form() {
           </div>
           <div className="flex flex-col items-start gap-1 w-full">
             <label
-              htmlFor="messageDescription"
-              className="text-light-secondary font-arial text-[12px] font-[400] leading-[160%] "
-            >
-              Message
-            </label>
-            <input
-              id="messageDescription"
-              type="text"
-              className="flex py-2 px-3 flex-col items-start h-10 self-stretch rounded-[4px] border strock-[#C4C4C4] w-full bg-white"
-            />
-          </div>
-          <div className="flex flex-col items-start gap-1 w-full">
-            <label
-              htmlFor="tpno"
+              htmlFor="message"
               className="text-light-secondary font-arial text-[12px] font-[400] leading-[160%] "
             >
               Phone*
             </label>
             <textarea
-              id="tpno"
+              id="message"
               className="flex py-2 px-3 flex-col items-start h-[109.63px] self-stretch rounded-[4px] border strock-[#C4C4C4] w-full bg-white "
             ></textarea>
           </div>
